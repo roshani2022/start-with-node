@@ -1,0 +1,34 @@
+# Operating system and editor files
+.DS_Store
+.env
+.idea/
+.vscode/
+
+# Node.js
+/node_modules
+/dist
+/build
+/coverage
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+.tmp/
+
+# Dependencies
+/vendor
+/bower_components
+
+# Compiled and build files
+*.pyc
+__pycache__/
+*.o
+*.out
+
+# Mac OS X
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
