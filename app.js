@@ -4,4 +4,4 @@ const http = require('http');
  function rqListner(req,res){
 
  }
-http.createServer()
+http.createServer(rqListner)
