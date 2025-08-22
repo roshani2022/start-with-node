@@ -1,7 +1,5 @@
 const http = require('http');
 
+http.createServer(function(req,res){
 
- function rqListner(req,res){
-
- }
-http.createServer(rqListner)
+})
