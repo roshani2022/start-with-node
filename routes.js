@@ -42,7 +42,15 @@ const reuestHandler = (req, res) => {
 
 // module.exports = reuestHandler;
 
-module.exports = {
-  handler : reuestHandler,
-  text : "exporting to many thing"
-}
+// module.exports = {
+//   handler : reuestHandler,
+//   text : "exporting to many thing"
+// }
+
+// module.exports.handler = reuestHandler;
+// module.exports.text = "Some hard coded text"
+
+exports.handler = reuestHandler;
+exports.text = "Short way of exporting"
+
+
